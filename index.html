@@ -4,24 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CiberProtege | Protege tu mundo digital</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- 🟦 HEADER -->
   <header>
-    <h1>CiberProtege</h1>
+    <div class="logo">🛡️ CiberProtege</div>
     <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Seguridad móvil</a>
-      <a href="#">Contactar</a>
+      <a href="#inicio">Inicio</a>
+      <a href="#articulo">Artículos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Protege tu mundo digital</h2>
-    <p>Aprende, previene y comparte.</p>
-    <button>Obtener ayuda</button>
+  <!-- 🟩 HERO SECTION -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Protege tu mundo digital</h1>
+      <p>Aprende, previene y comparte. La ciberseguridad también es educación.</p>
+      <a href="#articulo" class="btn">Leer artículo</a>
+    </div>
   </section>
 
+  <!-- 📰 ARTÍCULO -->
+  <main id="articulo">
+    <article class="post">
+      <h2>Cómo saber si tu teléfono móvil está intervenido o infectado</h2>
+      <p class="meta">Publicado por <strong>CiberProtege.org</strong> | Octubre 2025</p>
+
+      <p>Tu teléfono móvil puede mostrar señales extrañas cuando algo no está bien. Sin embargo, no siempre significa que haya sido intervenido o infectado; a veces son fallos del sistema o aplicaciones mal optimizadas. En esta guía te enseñamos cómo identificar las diferencias.</p>
+
+      <h3>🔍 1. Síntomas comunes</h3>
+      <ul>
+        <li>La batería se descarga más rápido de lo normal.</li>
+        <li>El dispositivo se calienta sin uso aparente.</li>
+        <li>Aparecen apps desconocidas o sin icono.</li>
+        <li>La pantalla se enciende sola o se distorsiona.</li>
+        <li>WhatsApp u otras apps muestran actividad inusual.</li>
+      </ul>
+
+      <h3>🧰 2. Pasos para diagnosticar</h3>
+      <ul>
+        <li>Revisa <strong>Permisos de apps</strong> y elimina los que no sean necesarios.</li>
+        <li>Inicia el teléfono en <strong>modo seguro</strong> para detectar apps sospechosas.</li>
+        <li>Comprueba <strong>consumo de batería y datos</strong> (pueden delatar spyware).</li>
+        <li>Usa herramientas seguras como <em>Malwarebytes Mobile</em> o <em>Bitdefender Free</em>.</li>
+      </ul>
+
+      <h3>🛡️ 3. Qué hacer si sospechas infección</h3>
+      <ul>
+        <li>Haz copia de seguridad de tus datos personales.</li>
+        <li>Restablece el teléfono a los valores de fábrica.</li>
+        <li>Instala solo desde <strong>Google Play</strong> o <strong>App Store</strong>.</li>
+        <li>Evita compartir datos sensibles hasta confirmar que está limpio.</li>
+      </ul>
+
+      <h3>💡 4. Consejos de prevención</h3>
+      <ul>
+        <li>Mantén el sistema operativo actualizado.</li>
+        <li>Usa contraseñas fuertes y autenticación en dos pasos.</li>
+        <li>No abras enlaces ni archivos de remitentes desconocidos.</li>
+        <li>Instala un antivirus confiable y mantenlo actualizado.</li>
+      </ul>
+
+      <blockquote>
+        🔒 En <strong>CiberProtege</strong> creemos que la educación digital es la primera línea de defensa.<br>
+        Cuida tu privacidad y comparte este contenido con quienes más lo necesitan.
+      </blockquote>
+    </article>
+  </main>
+
+  <!-- 📞 CONTACTO -->
+  <section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes dudas o quieres colaborar? Escríbenos:</p>
+    <a href="mailto:contacto@ciberprotege.org" class="btn-secondary">📧 contacto@ciberprotege.org</a>
+  </section>
+
+  <!-- ⚪ FOOTER -->
   <footer>
     <p>© 2025 CiberProtege.org — Proyecto educativo sin fines de lucro.</p>
   </footer>
